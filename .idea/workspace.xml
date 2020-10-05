@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f2b6ea5-07d2-42d0-be19-c3b27d6c4f53" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Chess Game$components_piece_in_Chess_Game.coverage" NAME="components.piece in Chess Game Coverage Results" MODIFIED="1442613450191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>components.piece.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Chess Game$ChessGUI.coverage" NAME="ChessGUI Coverage Results" MODIFIED="1442612490104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>view.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iGkY9US7gBOYJGOrd0j2hhmh2B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Arraylis&#9;PSI&#9;JAVA://java.util.ArrayList&#10;kill&#9;PSI&#9;JAVA://components.Piece#piecesKilled" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="core" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="test.PieceTests" />
+      <recent name="components.piece" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChessMVC">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration name="ChessGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.ChessGUI" />
+      <module name="ChessSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChessMVC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mvc.ChessMVC" />
+      <module name="ChessSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.GameController" />
+      <module name="ChessSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.GameModel" />
+      <module name="ChessSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QueenTest.testAnotherCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChessSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.pieceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.pieceTests" />
+      <option name="MAIN_CLASS_NAME" value="test.pieceTests.QueenTest" />
+      <option name="METHOD_NAME" value="testAnotherCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.GameModel" />
+      <item itemvalue="Application.ChessMVC" />
+      <item itemvalue="Application.ChessGUI" />
+      <item itemvalue="JUnit.QueenTest.testAnotherCase" />
+      <item itemvalue="Application.GameController" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChessMVC" />
+        <item itemvalue="Application.GameController" />
+        <item itemvalue="Application.ChessGUI" />
+        <item itemvalue="JUnit.QueenTest.testAnotherCase" />
+        <item itemvalue="Application.GameModel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f2b6ea5-07d2-42d0-be19-c3b27d6c4f53" name="Default" comment="" />
+      <created>1441686131382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1441686131382</updated>
+      <workItem from="1441686137336" duration="20447000" />
+      <workItem from="1441728982162" duration="204000" />
+      <workItem from="1441935643573" duration="19816000" />
+      <workItem from="1441989389443" duration="17587000" />
+      <workItem from="1442029722720" duration="1597000" />
+      <workItem from="1442031880026" duration="2951000" />
+      <workItem from="1442180262332" duration="833000" />
+      <workItem from="1442216527633" duration="1666000" />
+      <workItem from="1442290696004" duration="3314000" />
+      <workItem from="1442354438872" duration="39000" />
+      <workItem from="1442469541200" duration="744000" />
+      <workItem from="1442531557485" duration="41476000" />
+      <workItem from="1442610895793" duration="487000" />
+      <workItem from="1442611756459" duration="2127000" />
+      <workItem from="1442898205041" duration="36000" />
+      <workItem from="1442941695116" duration="6597000" />
+      <workItem from="1443136572508" duration="46278000" />
+      <workItem from="1443215625628" duration="3938000" />
+      <workItem from="1601541368325" duration="3780000" />
+      <workItem from="1601552653456" duration="1474000" />
+      <workItem from="1601554163327" duration="16000" />
+      <workItem from="1601554238309" duration="983000" />
+      <workItem from="1601608013132" duration="5000" />
+      <workItem from="1601873132497" duration="908000" />
+      <workItem from="1601878665182" duration="159000" />
+      <workItem from="1601879117077" duration="4175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="630" y="143" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1601541421177">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="630" y="143" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/62.0.1474.864@62.0.1474.864" timestamp="1601541421177" />
+    <state x="504" y="173" key="FileChooserDialogImpl" timestamp="1601541419386">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="504" y="173" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1601541419386" />
+    <state width="1431" height="211" key="GridCell.Tab.0.bottom" timestamp="1601882546874">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="211" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1601882546874" />
+    <state width="1431" height="211" key="GridCell.Tab.0.center" timestamp="1601882546874">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="211" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1601882546874" />
+    <state width="1431" height="211" key="GridCell.Tab.0.left" timestamp="1601882546874">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="211" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1601882546874" />
+    <state width="1431" height="211" key="GridCell.Tab.0.right" timestamp="1601882546874">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="211" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1601882546874" />
+    <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1601558274935">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="277" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1601558274935" />
+    <state width="1431" height="277" key="GridCell.Tab.1.center" timestamp="1601558274934">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="277" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1601558274934" />
+    <state width="1431" height="277" key="GridCell.Tab.1.left" timestamp="1601558274934">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="277" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1601558274934" />
+    <state width="1431" height="277" key="GridCell.Tab.1.right" timestamp="1601558274934">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="277" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1601558274934" />
+    <state x="280" y="7" key="SettingsEditor" timestamp="1601541423625">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="280" y="7" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1601541423625" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
