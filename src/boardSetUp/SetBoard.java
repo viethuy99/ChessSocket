@@ -1,13 +1,9 @@
 package boardSetUp;
 
 import components.ChessBox;
-import components.Image;
 import components.ChessBoard;
-import components.Player;
 
 import components.piece.*;
-
-import model.GameState;
 
 public class SetBoard {
 

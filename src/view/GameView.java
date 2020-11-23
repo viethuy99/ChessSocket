@@ -63,13 +63,14 @@ public class GameView {
     /**
      * Constructor method
      */
-    public GameView()
+    public GameView(String title)
     {
+        gameContainer = new JFrame(title);
         prepareGUI();
     }
 
     public static void main(String[] args){
-        GameView chessGame = new GameView();
+        GameView chessGame = new GameView("Client");
     }
 
     /**
@@ -169,7 +170,7 @@ public class GameView {
         }
         playerWhiteImage.setBorder(BorderFactory.createEmptyBorder(40, 20, 40, 20));
         playerWhite.add(playerWhiteImage);
-        playerWhiteForfeitButton = new JButton("FORFEIT");
+        playerWhiteForfeitButton = new JButton("RESET");
         setAndAddForfeitButton(playerWhiteForfeitButton, playerWhite);
 //        playerWhiteScore = new JLabel("Score: 0");
 //        setAndAddScore(playerWhiteScore,playerWhite);
@@ -196,14 +197,14 @@ public class GameView {
      * @param score JLabel playerscore
      * @param playerPane the pane to be added
      */
-    private void setAndAddScore(JLabel score, JPanel playerPane)
-    {
-        score.setBorder(BorderFactory.createEmptyBorder(30, 20, 30, 20));
-        score.setPreferredSize(new Dimension(300, 100));
-        score.setFont(new Font("Arial", Font.BOLD, 60));
-        playerPane.add(score);
-        score.setAlignmentX(Component.CENTER_ALIGNMENT);
-    }
+//    private void setAndAddScore(JLabel score, JPanel playerPane)
+//    {
+//        score.setBorder(BorderFactory.createEmptyBorder(30, 20, 30, 20));
+//        score.setPreferredSize(new Dimension(300, 100));
+//        score.setFont(new Font("Arial", Font.BOLD, 60));
+//        playerPane.add(score);
+//        score.setAlignmentX(Component.CENTER_ALIGNMENT);
+//    }
 
     /**
      * creates and adds black player pane
@@ -226,7 +227,7 @@ public class GameView {
         }
         playerBlackImage.setBorder(BorderFactory.createEmptyBorder(40, 20, 40, 20));
         playerBlack.add(playerBlackImage);
-        playerBlackForfeitButton = new JButton("FORFEIT");
+        playerBlackForfeitButton = new JButton("RESET");
         setAndAddForfeitButton(playerBlackForfeitButton, playerBlack);
 //        playerBlackScore = new JLabel("Score: 0");
 //        setAndAddScore(playerBlackScore, playerBlack);

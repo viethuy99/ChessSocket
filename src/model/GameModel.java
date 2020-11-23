@@ -4,7 +4,6 @@ import boardSetUp.SetBoard;
 import components.ChessBoard;
 import components.ChessBox;
 import components.piece.King;
-import components.piece.Piece;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -46,7 +45,7 @@ public class GameModel {
 
     /**
      * It takes in the coordinates
-     * and makes the move happen in the model
+     * and makes the move happen in the main.model
      * @param startRow
      * @param startCol
      * @param endRow

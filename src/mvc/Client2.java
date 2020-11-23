@@ -5,12 +5,12 @@ import model.GameModel;
 import view.GameView;
 
 
-public class ChessMVC {
+public class Client2 {
 
     public static void main(String[] args)
     {
         GameModel model = new GameModel("Huy", "Hien" , false);
-        GameView view = new GameView("Client");
-        GameController controller = new GameController(model, view, 1, 1);
+        GameView view = new GameView("Client2");
+        GameController controller = new GameController(model, view, 0, 0);
     }
 }
