@@ -20,7 +20,7 @@ public class Move {
     public int[] parseMoveString(String move)
     {
 
-        int toReturn[] = new int[4];
+        int[] toReturn = new int[4];
         int startFile = ChessBox.convertFileCharacter(move.charAt(0));
         int startRank = ChessBox.convertRankCharacter(move.charAt(1));
         int endFile = ChessBox.convertFileCharacter(move.charAt(3));
@@ -38,7 +38,7 @@ public class Move {
      */
     public void makeMove(String moveString)
     {
-        int parsedMove[] = parseMoveString(moveString);
+        int[] parsedMove = parseMoveString(moveString);
 
         ChessBox sourceBox = chessBoard.boxes[parsedMove[1]][parsedMove[0]];
         ChessBox destinationBox = chessBoard.boxes[parsedMove[3]][parsedMove[2]];

@@ -11,21 +11,21 @@ import java.util.ArrayList;
 
 public class GameController extends Thread{
 
-    private GameModel theModel;
-    private GameView theView;
+    private final GameModel theModel;
+    private final GameView theView;
 //    private ClientControl clientCtr;
 
     //game loop components
     public int rotation = 0;
     public int inTurn;
     public int who;
-    public int selectedBox[] = new int[2];
+    public int[] selectedBox = new int[2];
     public static final String STARTING_PLAYER_COLOR = "white";
 
     //socket
     private Socket mySocket;
-    private String serverHost = "localhost";
-    private int serverPort = 8888;
+    private final String serverHost = "localhost";
+    private final int serverPort = 8888;
 
     /**
      * Constructor which connects the Model and the View
@@ -127,7 +127,7 @@ public class GameController extends Thread{
                     }
                     rotation = 0;
                     theView.setBoxesToNormal();
-                    int position[] = theModel.kingInCheck();
+                    int[] position = theModel.kingInCheck();
                     if(position!=null)
                     {
                         theView.setBoxAsInDanger(position[0],position[1]);
@@ -217,7 +217,7 @@ public class GameController extends Thread{
         return true;
     }
     class ReadClient extends Thread {
-        private Socket client;
+        private final Socket client;
         public ReadClient(Socket client) {
             this.client = client;
         }

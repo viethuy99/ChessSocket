@@ -81,7 +81,7 @@ public class GameModel {
         ArrayList<int[]> listOfPossibleMoves= new ArrayList<int[]>();
         for(ChessBox possibleBox: chessBox.getOccupyingPiece().getPossibleMoves(chessBoard))
         {
-            int arr[] = new int[2];
+            int[] arr = new int[2];
             arr[0]= possibleBox.getRank();
             arr[1] = possibleBox.getFile();
             listOfPossibleMoves.add(arr);
@@ -104,7 +104,7 @@ public class GameModel {
      * Main class for DEBUG PURPOSES
      * @param args
      */
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         ChessBoard c = new ChessBoard();
         SetBoard s = new SetBoard(c, false);
@@ -134,14 +134,14 @@ public class GameModel {
         ChessBox blackKingBox = blackKing.getCurrentPosition();
         if(whiteKing.isCheck(chessBoard))
         {
-            int position[] = new int[2];
+            int[] position = new int[2];
             position[0] = whiteKingBox.getRank();
             position[1] = whiteKingBox.getFile();
             return position;
         }
         else if(blackKing.isCheck(chessBoard))
         {
-            int position[] = new int[2];
+            int[] position = new int[2];
             position[0] = blackKingBox.getRank();
             position[1] = blackKingBox.getFile();
             return position;
@@ -162,9 +162,7 @@ public class GameModel {
         ChessBox boxInQuestion = chessBoard.getBoxes()[row][col];
         String pieceColor = boxInQuestion.getOccupyingPiece().getColor();
         String playerColor = gameState.getPlayerInTurn().getColor();
-        if(pieceColor.equalsIgnoreCase(playerColor))
-            return false;
-        return true;
+        return !pieceColor.equalsIgnoreCase(playerColor);
     }
 
     /**

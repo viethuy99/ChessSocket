@@ -46,7 +46,7 @@ public class GameView {
     Icon lastDestinationIcon;
 
 
-    Image chessPieceImages[][];
+    Image[][] chessPieceImages;
 
     //These numbers are determined by each sub image in the sprite-sheet
     //as fitted in the 2D Images Array
@@ -71,6 +71,7 @@ public class GameView {
 
     public static void main(String[] args){
         GameView chessGame = new GameView("Client");
+        chessGame.show();
     }
 
     /**
@@ -171,7 +172,7 @@ public class GameView {
         playerWhiteImage.setBorder(BorderFactory.createEmptyBorder(40, 20, 40, 20));
         playerWhite.add(playerWhiteImage);
         playerWhiteForfeitButton = new JButton("RESET");
-        setAndAddForfeitButton(playerWhiteForfeitButton, playerWhite);
+//        setAndAddForfeitButton(playerWhiteForfeitButton, playerWhite);
 //        playerWhiteScore = new JLabel("Score: 0");
 //        setAndAddScore(playerWhiteScore,playerWhite);
         playerWhiteName.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -228,7 +229,7 @@ public class GameView {
         playerBlackImage.setBorder(BorderFactory.createEmptyBorder(40, 20, 40, 20));
         playerBlack.add(playerBlackImage);
         playerBlackForfeitButton = new JButton("RESET");
-        setAndAddForfeitButton(playerBlackForfeitButton, playerBlack);
+//        setAndAddForfeitButton(playerBlackForfeitButton, playerBlack);
 //        playerBlackScore = new JLabel("Score: 0");
 //        setAndAddScore(playerBlackScore, playerBlack);
         playerBlackName.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -252,9 +253,9 @@ public class GameView {
 
 
         toolBar = new JPanel();
-        toolBar.add(newButton);
-        toolBar.add(resetButton);
-        toolBar.add(undoButton);
+//        toolBar.add(newButton);
+//        toolBar.add(resetButton);
+//        toolBar.add(undoButton);
 
         //setting Action Commands
         newButton.setActionCommand("n");
@@ -273,7 +274,7 @@ public class GameView {
     {
         //show the JFrame
         gameContainer.setVisible(true);
-        gameContainer.setSize(1500, 1500);
+        gameContainer.setSize(1200, 1000);
     }
 
     /**

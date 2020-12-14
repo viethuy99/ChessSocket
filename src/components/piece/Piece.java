@@ -99,9 +99,7 @@ abstract public class Piece {
 //        System.out.println(c);
 
         //if the destination box exists in the possible moves, it returns true
-        if(insidePossibleMovesList(possibleMoves, destinationChessBox))
-            return true;
-        return false;
+        return insidePossibleMovesList(possibleMoves, destinationChessBox);
     }
 
     /**

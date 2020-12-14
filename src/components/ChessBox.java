@@ -66,10 +66,7 @@ public class ChessBox {
             return false;
 
         Piece occupyingPiece = getOccupyingPiece();
-        if(occupyingPiece.getColor().equalsIgnoreCase(p.getColor()))
-            return true;
-
-        return false;
+        return occupyingPiece.getColor().equalsIgnoreCase(p.getColor());
     }
 
     /**
@@ -83,10 +80,7 @@ public class ChessBox {
             return false;
 
         Piece occupyingPiece = getOccupyingPiece();
-        if(occupyingPiece.getColor()!= p.getColor())
-            return true;
-
-        return false;
+        return occupyingPiece.getColor() != p.getColor();
     }
 
     /**

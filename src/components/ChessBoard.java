@@ -16,7 +16,7 @@ public class ChessBoard {
     public King blackKing;
     public King whiteKing;
 
-    public ChessBox boxes[][];
+    public ChessBox[][] boxes;
 
     //For Undo
     public Piece lastDestinationPiece;
