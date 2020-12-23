@@ -23,39 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2b6ea5-07d2-42d0-be19-c3b27d6c4f53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Game1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/Game2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/List1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/List2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ListView1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ListView2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChessSocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChessSocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/components/ChessBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/components/ChessBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/components/piece/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/components/piece/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ForfeitAndNewListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ForfeitAndNewListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ReadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$ReadClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$UndoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController$UndoListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/model/GameModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Client1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Client1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Client2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/mvc/ReadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/mvc/ReadServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/mvc/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/mvc/WriteServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/mvc/WriteServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessSocket/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessSocket/view/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChessBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChessBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChessBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/piece/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/piece/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/Client2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +100,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -146,7 +121,7 @@
       <recent name="C:\Users\Admin\Desktop\hoc_tren_lop\lap_trinh_mang\Chess-Game\ChessSocket\Client1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client1">
+  <component name="RunManager" selected="Application.Server">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -371,11 +346,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client1" />
-        <item itemvalue="Application.Client2" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Game1" />
         <item itemvalue="Application.Game2" />
+        <item itemvalue="Application.Game1" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client1" />
       </list>
     </recent_temporary>
   </component>
@@ -434,6 +409,9 @@
       <workItem from="1607858709399" duration="1673000" />
       <workItem from="1607906689237" duration="1111000" />
       <workItem from="1607907826788" duration="6106000" />
+      <workItem from="1607940596138" duration="863000" />
+      <workItem from="1608012976723" duration="4343000" />
+      <workItem from="1608162956584" duration="311000" />
     </task>
     <servers />
   </component>
@@ -498,22 +476,22 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="504" y="173" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1607271216141" />
-    <state width="1431" height="211" key="GridCell.Tab.0.bottom" timestamp="1607940465522">
+    <state width="1431" height="211" key="GridCell.Tab.0.bottom" timestamp="1608018422803">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="211" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1607940465522" />
-    <state width="1431" height="211" key="GridCell.Tab.0.center" timestamp="1607940465522">
+    <state width="1431" height="211" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1608018422803" />
+    <state width="1431" height="211" key="GridCell.Tab.0.center" timestamp="1608018422803">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="211" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1607940465522" />
-    <state width="1431" height="211" key="GridCell.Tab.0.left" timestamp="1607940465522">
+    <state width="1431" height="211" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1608018422803" />
+    <state width="1431" height="211" key="GridCell.Tab.0.left" timestamp="1608018422803">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="211" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1607940465522" />
-    <state width="1431" height="211" key="GridCell.Tab.0.right" timestamp="1607940465522">
+    <state width="1431" height="211" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1608018422803" />
+    <state width="1431" height="211" key="GridCell.Tab.0.right" timestamp="1608018422803">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="211" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1607940465522" />
+    <state width="1431" height="211" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1608018422803" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1601558274935">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -530,18 +508,18 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1431" height="277" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1601558274934" />
-    <state x="280" y="7" key="SettingsEditor" timestamp="1607271224794">
+    <state x="280" y="7" key="SettingsEditor" timestamp="1608163056118">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="280" y="7" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1607271224794" />
+    <state x="280" y="7" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1608163056118" />
     <state x="615" y="210" key="chooseDestDirectoryDialog" timestamp="1604290037321">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="615" y="210" key="chooseDestDirectoryDialog/62.0.1474.864@62.0.1474.864" timestamp="1604290037321" />
-    <state x="240" y="93" key="new project wizard" timestamp="1604290979890">
+    <state x="240" y="93" key="new project wizard" timestamp="1608163268091">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="240" y="93" key="new project wizard/62.0.1474.864@62.0.1474.864" timestamp="1604290979890" />
+    <state x="240" y="93" key="new project wizard/62.0.1474.864@62.0.1474.864" timestamp="1608163268091" />
     <state x="456" y="197" key="run.anything.popup" timestamp="1606115510351">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

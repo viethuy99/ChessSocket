@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
+import model.config;
 
 public class GameController extends Thread{
 
@@ -24,7 +25,8 @@ public class GameController extends Thread{
 
     //socket
     private Socket mySocket;
-    private final String serverHost = "localhost";
+//    private final String serverHost = "localhost";
+    private final String serverHost = new config().IP;
     private final int serverPort = 8888;
 
     /**

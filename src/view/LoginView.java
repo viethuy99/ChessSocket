@@ -119,7 +119,7 @@ public class LoginView extends javax.swing.JFrame {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             String url="jdbc:mysql://localhost:3306/chess";
-            this.con = DriverManager.getConnection(url,"root","huy944012919");
+            this.con = DriverManager.getConnection(url,"root","123456");
         }
         public ResultSet GetData(String sql) throws SQLException{
 
